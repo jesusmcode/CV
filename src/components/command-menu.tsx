@@ -51,20 +51,20 @@ export const CommandMenu = ({ links }: Props) => {
         <CommandIcon className="my-6 size-6" />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput placeholder="Buscar comando" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Actions">
+          <CommandGroup heading="Acciones">
             <CommandItem
               onSelect={() => {
                 setOpen(false);
                 window.print();
               }}
             >
-              <span>Print</span>
+              <span>Imprimir</span>
             </CommandItem>
           </CommandGroup>
-          <CommandGroup heading="Links">
+          <CommandGroup heading="Social">
             {links.map(({ url, title }) => (
               <CommandItem
                 key={url}

@@ -41,8 +41,9 @@ export class Work {
   @Field(() => String)
   company: string;
 
-  @Field(() => String)
-  link: string;
+@Field(() => String, { nullable: true })  // Añadido 'nullable: true'
+  link?: string;
+
 
   @Field(() => [String])
   badges: string[];
@@ -107,8 +108,8 @@ export class Me {
   @Field(() => String)
   avatarUrl: string;
 
-  @Field(() => String)
-  personalWebsiteUrl: string;
+  // @Field(() => String)
+  // personalWebsiteUrl: string;
 
   @Field(() => Contact)
   contact: Contact;
@@ -121,6 +122,9 @@ export class Me {
 
   @Field(() => [String])
   skills: string[];
+
+    @Field(() => [String])
+  Habilidades: string[];
 
   @Field(() => [Project])
   projects: Project[];

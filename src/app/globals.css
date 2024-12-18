@@ -76,5 +76,13 @@
 }
 
 .print-force-new-page {
-  page-break-before: always;
+  page-break-before: auto;
+  /* O bien eliminar la propiedad */
+}
+
+@media print {
+  .print-force-new-page {
+    page-break-before: auto;
+    /* No forzar nuevos saltos de página al imprimir */
+  }
 }
