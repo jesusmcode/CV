@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       start: "Jun 2024",
       end: "Actual",
       description:
-        "Encargado de auditar interacciones telefónicas y chats en WhatsApp según los estándares de calidad de la campaña WOM SAC Colombia. Lideré el análisis de indicadores para la toma de decisiones estratpegicas como Llamadas Cortas (Short Call) y Contactos No Efectivos (CNE). Fomenté buenas prácticas en la optimización de información para informes mediante Google Sheets, lo que mejoró la eficiencia y los resultados operativos.",
+        "Encargado de auditar interacciones telefónicas y chats en WhatsApp según los estándares de calidad de la campaña WOM SAC Colombia. Lideré el análisis de indicadores para la toma de decisiones estratégicas como Llamadas Cortas (Short Call) y Contactos No Efectivos (CNE). Fomenté buenas prácticas en la optimización de información para informes mediante Google Sheets, lo que mejoró la eficiencia y los resultados operativos.",
     },
     {
       company: "Apex América CO",
