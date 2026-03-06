@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/78837869?s=400&u=5e1f27717caffbcecc2c7845f4225a276895965f&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bjmcastro16@gmail.com",
+    email: "jesusmcode@gmail.com",
     tel: "+57 3168093325",
     social: [
       {
