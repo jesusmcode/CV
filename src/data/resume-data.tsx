@@ -20,14 +20,14 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Analista BI",
+  name: "Analista CX",
   initials: "JM",
   location: "Soacha, Cundinamarca",
   locationLink: "https://maps.app.goo.gl/bhQ5b52TFhCBbHks9",
   about:
     "Brian Jesús Molina Castro",
   summary:
-    "Analista de datos con experiencia en el sector BPO, autodidacta y muy apasionado en todo lo que hago. Soy una persona proactiva, responsable, que se adapta fácilmente a los cambios y con liderazgo para impulsar el desarrollo de soluciones efectivas en cada proyecto. Busco retos que me desafíen y un grupo de personas que busquen superarse día a día",
+    "Profesional con sólida trayectoria en el sector BPO, especializado en la optimización de la Experiencia del Cliente (CX) mediante el análisis estratégico de datos. Con capacidad probada para liderar proyectos transformando métricas complejas en planes de acción efectivos. Soy una persona proactiva enfocada en la mejora continua que se adapta fácilmente a los cambios.",
   avatarUrl: "https://avatars.githubusercontent.com/u/78837869?s=400&u=5e1f27717caffbcecc2c7845f4225a276895965f&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -50,11 +50,18 @@ export const RESUME_DATA = {
       end: "Nov 2024",
     },
 
+          {
+      school: "Daxus LATAM",
+      degree: "Master en Power BI",
+      start: "Ene 2026",
+      end: "Presente",
+    },
+
         {
       school: "Google Cloud Skills Boost",
       degree: "Data Analyst",
       start: "Oct 2024",
-      end: "Presente",
+      end: "Ene 2025",
     },
 
     {
@@ -73,20 +80,33 @@ export const RESUME_DATA = {
 
   ],
   work: [
+
     {
       company: "Apex América CO",
       badges: ["Híbrido"],
       title: "Analista de Calidad",
       logo: ConsultlyLogo,
       start: "Jun 2024",
-      end: "Actual",
+      end: "Presente",
       description:
-        "Encargado de auditar interacciones telefónicas y chats en WhatsApp según los estándares de calidad de la campaña WOM SAC Colombia. Lideré el análisis de indicadores para la toma de decisiones estratégicas como Llamadas Cortas (Short Call) y Contactos No Efectivos (CNE). Fomenté buenas prácticas en la optimización de información para informes mediante Google Sheets, lo que mejoró la eficiencia y los resultados operativos.",
+        "Responsable de la gestión de calidad para la campaña WOM SAC Colombia. Transformé la auditoría de interacciones telefónicas en un proceso pedagógico, identificando brechas de conocimiento y ejecutando sesiones de feedback constructivo orientadas a la mejora continua. Además, automaticé reportes con Python y Google Sheets que optimizaron la entrega de resultados a los cientes y las operaciones",
     },
+
     {
       company: "Apex América CO",
       badges: ["Híbrido"],
-      title: "Datamarshall",
+      title: "Analista de Procesos",
+      logo: ConsultlyLogo,
+      start: "Dic 2025",
+      end: "Marzo 2026",
+      description:
+        "Líderé el levantamiento de procesos y documentación para la auditoría internas ISO 27001, garantizando la integridad y calidad operativa. Especialista en el diseño y seguimiento de Planes de Acción para la resolución de no conformidades",
+    },
+
+    {
+      company: "Apex América CO",
+      badges: ["Híbrido"],
+      title: "Datamarshall / BackOffice",
       logo: ParabolLogo,
       start: "Feb 2024",
       end: "Jun 2024",
@@ -136,12 +156,14 @@ export const RESUME_DATA = {
   ],
 
   Habilidades: [
-    "Liderazgo",
-    "Trabajo en equipo",
-    "Atención al detalle",
+    "Liderazgo Inspirador",
     "Comunicación asertiva",
-    "Creativo",
+    "Trabajo en equipo",
+    "Escucha activa",
+    "Resolución de Conflictos",
+    "Pensamiento crítico",  
     "Adaptación al cambio",
+
   ],
   projects: [
     {
